@@ -1,9 +1,9 @@
 ---
 description: >
   Use this skill when a user uploads Meta Ads campaign data (CSV, XLSX, Google
-  Sheets, or screenshots) and wants a clear campaign performance brief. Trigger
+  Sheets, or screenshots) and wants a clear campaign performance report. Trigger
   when: (1) the user uploads or pastes Meta Ads campaign export data and asks
-  for a summary or analysis; (2) the user says "create a campaign brief",
+  for a summary or analysis; (2) the user says "create a campaign report",
   "summarize my ad performance", or "what do these results mean"; (3) the user
   needs a stakeholder-friendly or client-ready summary instead of raw
   spreadsheet analysis. Primary audience: media buyers and marketers who want
@@ -12,11 +12,11 @@ description: >
   weekly reports and client check-ins.
 ---
 
-# Campaign Brief Skill
+# Campaign Report Skill
 
 ## Purpose
 
-Produce a concise, structured campaign brief from uploaded paid media data.
+Produce a concise, structured campaign report from uploaded paid media data.
 Optimized for Meta Ads exports. Works on other paid media datasets when column
 names are similar.
 
@@ -25,7 +25,7 @@ names are similar.
 ## Step 1 — Ingest and assess the data
 
 When the user provides data (CSV, XLSX, Google Sheets link, screenshot, or
-pasted table), do the following before writing the brief:
+pasted table), do the following before writing the report:
 
 1. **Identify the source format.** Note whether it is a CSV, Excel file,
    screenshot, pasted table, or link. If multiple files or sheets are provided,
@@ -56,7 +56,7 @@ pasted table), do the following before writing the brief:
 
 ---
 
-## Step 2 — Write the campaign brief
+## Step 2 — Write the campaign report
 
 Use the output template in `brief-template.md`. Follow every section in order.
 Apply these rules throughout:
@@ -121,13 +121,13 @@ Before finalizing the brief, verify:
       observations.
 - [ ] Next-step suggestions each cite a specific data point.
 - [ ] No causal or attributional language without data support.
-- [ ] Brief fits the medium-length target: all 6 sections present, no section
+- [ ] Report fits the medium-length target: all 6 sections present, no section
       is padded beyond what the data supports.
 
 ---
 
 ## Reference files
 
-- `brief-template.md` — the output structure to fill in
+- `report-template.md` — the output structure to fill in
 - `column-map.md` — Meta Ads column name variants for header detection
 - `validation-checklist.md` — checklist for testing the skill

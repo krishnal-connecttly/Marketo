@@ -1,4 +1,4 @@
-# Campaign Brief Skill — Validation Checklist
+# Campaign Report Skill — Validation Checklist
 
 Use this checklist to verify the skill is working correctly. Run each test
 scenario and confirm the expected behavior.
@@ -16,7 +16,7 @@ Cost per result.
 
 **Expected behavior:**
 
-- [ ] All 6 brief sections are produced.
+- [ ] All 6 report sections are produced.
 - [ ] Reporting period is extracted from the file (date range in headers or
       filename) or flagged as "Not available".
 - [ ] Spend, Impressions, Reach, Link Clicks, CTR, CPC, CPM, Results, and
